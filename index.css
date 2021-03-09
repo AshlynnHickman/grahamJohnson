@@ -60,12 +60,12 @@ body {
 
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 #team {
-    background: #eee !important;
+    background: url(assets/images/background.png);
 }
 
 .btn-primary:hover,
 .btn-primary:focus {
-    background-color: #108d6f;
+    background-color: white;
     border-color: #108d6f;
     box-shadow: none;
     outline: none;
