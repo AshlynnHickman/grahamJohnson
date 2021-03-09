@@ -1,6 +1,6 @@
 body {
   font-family: "Libre Baskerville", serif;
-  background-image: url("../assets/images/background.png");
+  background-image: url("./assets/images/background.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -10,7 +10,7 @@ body {
   height: 100vh;
   min-height: 500px;
   background-image: url("../assets/images/masthead.png");
-  background-size: cover;
+  background-size: 150%;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -63,27 +63,9 @@ body {
     background: url(assets/images/background.png);
 }
 
-.btn-primary:hover,
-.btn-primary:focus {
-    background-color: white;
-    border-color: #108d6f;
-    box-shadow: none;
-    outline: none;
-}
-
-.btn-primary {
-    color: #fff;
-    background-color: #007b5e;
-    border-color: #007b5e;
-}
-
-section {
-    padding: 60px 0;
-}
-
 section .section-title {
     text-align: center;
-    color: #007b5e;
+    color: #323f45;
     margin-bottom: 50px;
     text-transform: uppercase;
 }
@@ -172,12 +154,12 @@ section .section-title {
 
 .backside .card a {
     font-size: 18px;
-    color: #007b5e !important;
+    color: #323f45!important;
 }
 
 .frontside .card .card-title,
 .backside .card .card-title {
-    color: #007b5e !important;
+    color: #323f45 !important;
 }
 
 .frontside .card .card-body img {
@@ -285,6 +267,32 @@ footer p {
   border-radius: 50%;
 }
 .social_footer_ul li i {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+
+
+
+
+.social_desc {
+  display: table;
+  margin: 15px auto 0 auto;
+  list-style-type: none;
+}
+.social_desc li {
+  padding-left: 20px;
+  padding-top: 10px;
+  float: left;
+}
+.social_desc li a {
+  color: #323f45;
+  border: 1px solid #323f45;
+  padding: 8px;
+  border-radius: 50%;
+}
+.social_desc li i {
   width: 20px;
   height: 20px;
   text-align: center;
